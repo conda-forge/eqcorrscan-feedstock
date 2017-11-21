@@ -13,7 +13,7 @@ source:
 
 build:
   skip: false
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -21,14 +21,14 @@ requirements:
     - setuptools
     - toolchain
     - future
-    - numpy x.x
+    - numpy 1.11.*
     - fftw
     - openmp
   run:
     - python
     - setuptools
     - future
-    - numpy x.x
+    - numpy >=1.11
     - fftw
     - openmp
     - scipy
