@@ -24,6 +24,7 @@ requirements:
     - numpy 1.11.*
     - fftw
     - openmp
+
   run:
     - python
     - setuptools
